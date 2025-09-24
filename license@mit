@@ -1,0 +1,26 @@
+The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology (MIT). As a permissive license, it puts only very limited restrictions on reuse and comes with **no warranty**. This makes it compatible with many other licenses, including proprietary ones.
+
+![License](./Images/license.png)
+
+____
+Here's a breakdown of its key features:
+
+*   **Permissive:** It allows you to do almost anything you want with the software, including using, copying, modifying, merging, publishing, distributing, sublicensing, and selling copies of the software.
+*   **Minimal Restrictions:** The only significant requirement is that the copyright notice and permission notice must be included in all copies or substantial portions of the software.
+*   **No Warranty:** The software is provided "as is," without warranty of any kind, express or implied. This protects the original authors from liability.
+*   **Short and Easy to Understand:** The license text is relatively brief and straightforward.
+
+**Who uses it?**
+
+The MIT License is one of the most popular open-source licenses, widely used for a vast array of software projects, libraries, and frameworks. Many prominent projects, like jQuery, Ruby on Rails, and Node.js, use the MIT License.
+
+**Example Use Cases:**
+
+Imagine you're developing a new web application. You find a cool JavaScript library under the MIT License.
+
+1.  **You can use it:** Integrate it directly into your project.
+2.  **You can modify it:** Change the code to better suit your needs.
+3.  **You can sell your application:** Even though your application incorporates MIT-licensed code, you can sell it commercially.
+4.  **You *must* include the license:** In your application's documentation or source code, you must include the original MIT License text for the library you used.
+
+Here's a simplified visual representation of its core idea:

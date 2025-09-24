@@ -1,0 +1,22 @@
+FreeBASIC itself is primarily licensed under the **GNU General Public License (GPL)**.
+
+Specifically:
+
+*   **The FreeBASIC Compiler and Runtime Library:** These are typically released under the **GNU General Public License (GPL) version 2 or later**. This means that if you distribute a program that includes parts of the FreeBASIC compiler or runtime, your program (or at least the parts linked with GPL components) might also need to be distributed under the GPL.
+*   **The FreeBASIC Headers and Libraries (for linking):** Many of the headers and libraries included with FreeBASIC use a more permissive license, often a **Modified LGPL (Lesser General Public License) or a custom FreeBASIC License**. This is usually done to allow developers to create proprietary (non-GPL) applications using FreeBASIC, as long as they don't modify the compiler or runtime itself.
+
+**Key takeaway for developers:**
+
+*   You can generally **write and distribute your own applications compiled with FreeBASIC without needing to make your source code public**, as long as you are only linking against the standard libraries that come with FreeBASIC (which are often under the Modified LGPL or a similar permissive license).
+*   If you **modify the FreeBASIC compiler itself** or its core runtime (the GPL-licensed parts) and distribute those modifications, you **must also release your modified source code under the GPL**.
+
+**Where to find the exact license details:**
+
+You should always refer to the official FreeBASIC distribution for the precise license files, usually named `LICENSE.txt` or similar, within the compiler's installation directory. The FreeBASIC website (freebasic.net) also provides license information.
+
+For the purpose of your "IDEKiss Desktop and Develop Files" project, if you are *using* FreeBASIC for development:
+
+*   Your project's *output* (the `.bin` files compiled with FreeBASIC) can likely be under your chosen license.
+*   The IDEKiss *itself* (if it integrates parts of FreeBASIC in a non-standard way or distributes the FreeBASIC compiler) would need to consider the GPL.
+
+Let me know if you'd like a visual representation related to software licensing or FreeBASIC's open-source nature! 
