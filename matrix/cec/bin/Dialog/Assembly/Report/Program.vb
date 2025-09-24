@@ -1,5 +1,5 @@
 Public Interface IProgram
-    Public Shadows Event Freebasic As StrArgs
+    
 End Interface
 
 Public Class Languages

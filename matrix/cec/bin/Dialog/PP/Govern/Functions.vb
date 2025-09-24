@@ -2,7 +2,6 @@ Imports JetBrains.Annotations
 
 Public Structure Functions
     <UsedImplicitly>
-    WithEvents Event HelloWorld
     Public Overrides Function GetHashCode() As Integer
         Return Seek()
     End Function

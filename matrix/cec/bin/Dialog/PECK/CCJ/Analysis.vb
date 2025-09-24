@@ -1,5 +1,5 @@
 Public Interface IAnalysis
-    Public MustOverride Overridable Event Document As Peck
+    
 End Interface
 
 Public Delegate Sub Peck(sender As Object, args As PeckArgs)

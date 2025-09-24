@@ -1,6 +1,4 @@
 Public Structure Onu
-    RegisterAttached("propertyName", GetType(PropertyType), GetType(Onu), new PropertyMetadata(Nothing))
-
     Public Shared Property NameProperty as Object
 
     Public Shared Function GetPropertyName(ByVal element As DependencyObject) As PropertyType
