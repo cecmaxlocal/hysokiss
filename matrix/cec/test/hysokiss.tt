@@ -1,0 +1,3 @@
+<#@ template language="C#" #>
+<#@ assembly name="hysokiss.tt" #>
+<#@ output extension="Freebasic"#>
